@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-import { TaskStatus } from '../tasks.model';
+import { TaskStatus } from '../task-status.enum';
 import { IsOptional, IsEnum, IsString } from "class-validator";
 
 export class GetTasksFilterDto {
